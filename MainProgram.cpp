@@ -165,7 +165,7 @@ std::string Vehicle:: getMake() const{return make;}
 // ----------------------------------------------------------------
 
 // TODO: Implement Truck constructor (chain to Vehicle)
-    Truck::Truck(std::string make. int year, double fuelLevel,double payloadTons):Vehicle(make,year,fuelLevel),payloadTons(payloadTons){}
+    Truck::Truck(std::string make, int year, double fuelLevel,double payloadTons):Vehicle(make,year,fuelLevel),payloadTons(payloadTons){}
 // TODO: Implement getPayloadTons()
     double Truck::getPayloadTons() const {return payloadTons;}
 // TODO: Implement describe()
